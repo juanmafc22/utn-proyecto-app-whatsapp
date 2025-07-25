@@ -12,11 +12,20 @@ Elementos tentativos del Nav Bar:
     - Perfil
 */
 
+let club = 'CARC'
+let jugadores = ['Fideo', 'Marcos', 'Palma', 'Fatu Brown']
+let elements = []
+
+for (let jugador of jugadores) {
+    elements.push(<li></li>)
+}
+
 function NavBar() {
 
     return (
         <div>
-            <p>Este es la navbar</p>
+            <p>Este es la navbar de {club}</p>
+            <p>Algunos jugadores del club</p>
         </div>
     )
 
