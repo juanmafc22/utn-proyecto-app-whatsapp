@@ -1,52 +1,17 @@
 import React from 'react'
-
 import { useState } from 'react'
-
-import NavBar from './Components/NavBar/NavBar'
-
-function App() {
-  return (
-    <div>
-      <ComponenteNombre />
-      <ComponenteJuan />
-      <ComponenteManuel />
-      <ComponenteFernandez />
-      <NavBar />
-    </div>
-  )
-}
+import ListaDeMensajes from './Components/ListaMensajes/ListaMensajes'
 
 
-function ComponenteNombre() {
-  return (
-    <div>
-      <h1>Este es el título de los nombre</h1>
-    </div>
-  )
-}
+const App = () => {
 
-function ComponenteJuan() {
-  return (
-    <div>
-      <p>Juan</p>
-    </div>
-  )
-}
 
-function ComponenteManuel() {
-  return (
-    <div>
-      <p>Manuel</p>
-    </div>
-  )
-}
+    return (
+      <div>
+        <ListaDeMensajes />
+      </div>
+    )
 
-function ComponenteFernandez() {
-  return (
-    <div>
-      <p>Fernandez</p>
-    </div>
-  )
 }
 
 export default App
