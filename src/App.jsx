@@ -1,17 +1,13 @@
-import React from 'react'
-import { useState } from 'react'
-import ListaDeMensajes from './Components/ListaMensajes/ListaMensajes'
-
+import React from "react";
+import { useState } from "react";
+import ChatScreen from "./Screens/ChatScreen/ChatScreen";
 
 const App = () => {
-
-
     return (
-      <div>
-        <ListaDeMensajes />
-      </div>
-    )
+        <div>
+            <ChatScreen />
+        </div>
+    );
+};
 
-}
-
-export default App
+export default App;

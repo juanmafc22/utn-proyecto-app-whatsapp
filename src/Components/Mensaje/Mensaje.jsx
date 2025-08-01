@@ -1,11 +1,14 @@
-import React from "react"
+import React from "react";
 
-function Mensaje ({id, emisor, hora, texto, status}) {
+function Mensaje({ id, emisor, hora, texto, status }) {
     return (
         <div>
-            <p>{texto} {hora}</p>
+            <p>
+                {texto} de {emisor} <br />
+                <span>{hora}</span>
+            </p>
         </div>
-    )
+    );
 }
 
-export default Mensaje
+export default Mensaje;
